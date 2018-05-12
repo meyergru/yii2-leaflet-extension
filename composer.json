@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-leaflet-extension",
+    "name": "meyergru/yii2-leaflet-extension",
     "description": "LeafLet Mobile-Friendly Interactive Maps Extension Library for Yii2.",
     "type": "yii2-extension",
     "keywords": [
@@ -26,8 +26,8 @@
         "source": "https://github.com/2amigos/yii2-leaflet-extension"
     },
     "require": {
-        "yiisoft/yii2": "^2.0",
-        "bower-asset/leaflet": "^1.0"
+        "yiisoft/yii2": "^2.1",
+        "bower-asset/leaflet": "^1.3"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
