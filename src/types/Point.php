@@ -46,7 +46,7 @@ class Point extends Type implements ArrayableInterface
      */
     public function init()
     {
-        if (empty($this->x) || empty($this->y)) {
+        if (!isset($this->x) || !isset($this->y)) {
             throw new InvalidConfigException("'x' or 'y' cannot be empty.");
         }
     }
